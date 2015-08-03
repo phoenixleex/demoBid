@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Bidding</h1>
+<label for="user_number">Please Enter the Number of Bid : </label><input id="user_number" type="number" min="10" max="1000" step="1" value ="0"/>
+
+    <button onclick="myFunction()">Click me</button>
+    <p id="storep" ></p>
+
+	<script>
+	function myFunction() {
+	    document.getElementById("storep").innerHTML += document.getElementById("user_number").value + "</br>";
+	}
+</script>
+</body>
+</html>
+
+
+
